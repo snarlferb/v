@@ -55,9 +55,9 @@
 
 `"3p`          -  paste from (e.g. register 3)
 
-`s`            -  delete char, then substitute
+`s`            -  delete/substitute char, insert mode
 
-`Shift+S`      -  delete line, then substitute
+`Shift+S`      -  delete/substitute line, insert mode
 
 `f`            -  jumps to the next occurrence of any proceeding char
 
@@ -139,21 +139,21 @@
 
 `c`            -  motion cut/change whole line
 
-`Shift+C`      -  cut/change on cursor up to last character of a line and insert
+`Shift+C`      -  cut/change on cursor up to last character of a line, insert mode
 
-`c$`           -  cut/change on cursor up to last character of a line and insert
+`c$`           -  cut/change on cursor up to last character of a line, insert mode
 
-`ce`           -  cut/change on cursor up to end of word and insert
+`ce`           -  cut/change on cursor up to end of word, insert mode
 
-`cc`           -  cut/change line and insert
+`cc`           -  cut/change line, insert mode
 
-`ci"`          -  (example of) changing everything in between (quotation marks) and insert-mode
+`ci"`          -  (example of) changing everything in between (quotation marks), insert mode
 
 `ci(`          -  change inner parentheses
 
-`cw`           -  at beginning of word, change word (delete and insert-mode)
+`cw`           -  at beginning of word, change word (delete, insert mode)
 
-`ciw`          -  same behavior as diw/ and inserts
+`ciw`          -  same behavior as diw/, insert mode
 
 `viw`          -  select word
 
