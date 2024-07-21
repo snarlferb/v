@@ -157,9 +157,9 @@
 
 `viw`          -  select word
 
-`b`            -  moves cursor backwards to start of a word
+`b`            -  moves cursor backwards to the start of a word
 
-`Shift+B`      -  moves cursor backwards to start of a word
+`Shift+B`      -  moves cursor backwards to the start of a word (ignores alt-characters)
 
 `Shift+RIGHT`  -  same as w
 
@@ -402,7 +402,7 @@ e.g. `:vim /foo/ **/*`
 
 `Ctrl+i`       - behaves like spacebar
 
-`Ctrl+o`       - command->insert imitation, mode-swap
+`Ctrl+o`       - command-&gt;insert imitation, mode-swap
 
 `Ctrl+p`       - dropdown list of words
 
