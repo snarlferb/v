@@ -41,7 +41,7 @@
 
 `Shift+Y`      -  yank line and go to beginning of line
 
-``y`a``          -  yank to mark a
+    ``y`a``          -  yank to mark a
 
 `"3y`          -  yank to (e.g. register 3)
 
