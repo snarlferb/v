@@ -41,7 +41,7 @@
 
 `Shift+Y`      -  yank line and go to beginning of line
 
-    ``y`a``          -  yank to mark a
+``y`a``          -  yank to mark a
 
 `"3y`          -  yank to (e.g. register 3)
 
@@ -177,7 +177,7 @@
 
 `Shift+N`      -  repeat search in opposite direction
 
-`m`            -  DOESNT DO ANYTHING, PLEASE ASSIGN SOMETHING TO IT!...
+`m`            -  DOESNT DO ANYTHING, ASSIGN SOMETHING TO IT!...
 
 `Shift+M`      -  moves cursor middle of screen
 
